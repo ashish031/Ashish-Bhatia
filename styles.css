@@ -751,6 +751,15 @@ html{
     font-size: 2rem;
     color: #ddd;
 }
+
+.my-icon{
+    transition: all .4s;
+}
+
+.my-icon:hover{
+    color: #fff;
+    transform: translateY(-.5rem);
+}
 /* end of footer */
 
 .scroll-up-btn{
