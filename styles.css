@@ -980,11 +980,13 @@ html{
     }
 
     .video-wrapper{
-        width: 50rem;
+        /* width: 50rem; */
+        width: 100%;
     }
 
     .section-4-paragraph{
-        width: 50rem;
+        /* width: 50rem; */
+        width: 100%;
     }
 
     .contact-details div{
