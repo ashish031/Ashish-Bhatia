@@ -579,13 +579,17 @@ html{
 
 .fa-quote-left{
     align-self: flex-start;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
 }
 
 .fa-quote-right{
     align-self: flex-end;
-    font-size: 3rem;
+    font-size: 2.2rem;
+}
+
+.exception{
+    font-size: 1.8rem;
 }
 /* end of section 4 */
 
@@ -625,6 +629,9 @@ html{
 .project-5{
     background-color: #2e242c;
     text-decoration: underline #fff ;
+}
+.project-5 .section-heading-line{
+    width: 1rem;
 }
 
 
@@ -990,12 +997,10 @@ html{
     }
 
     .video-wrapper{
-        /* width: 50rem; */
         width: 100%;
     }
 
     .section-4-paragraph{
-        /* width: 50rem; */
         width: 100%;
     }
 
