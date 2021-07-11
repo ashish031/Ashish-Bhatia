@@ -787,7 +787,7 @@ html{
 
 
 /* Responsive */
-@media(max-width : 1800px){
+/* @media(max-width : 1800px){
     .video-wrapper{
         width: 85rem;
         height: 40rem;
@@ -920,7 +920,17 @@ html{
     }
 
     .section-2{
-        height: 100vh;
+        height: 50vh;
+    }
+
+    .section-2 .section-heading{
+        margin-bottom: 2rem;
+    }
+
+    .section-2 .section-heading-line{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .contact-details div{
@@ -997,5 +1007,5 @@ html{
     .contact-form{
         width: 50rem;
     }
-}
+} */
 /* end of Responsive */
