@@ -974,7 +974,7 @@ html{
     }
 
     .section-2-paragraph{
-        padding: 5rem;
+        width: 60vw;
         line-height: 3 !important;
     }
 
