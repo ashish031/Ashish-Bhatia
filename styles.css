@@ -327,9 +327,11 @@ html{
 /* section 2 */
 .section-2{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: #222020;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0 10rem;
     position: relative;
@@ -337,9 +339,6 @@ html{
 
 .section-2-paragraph{
     width: 95rem;
-    position: absolute;
-    top: 10rem;
-    right: 15rem;
     font-size: 2rem;
     color: #ddd;
     border-top: .3rem double #aaa;
@@ -351,8 +350,7 @@ html{
     align-items: center;
     text-align: justify;
     text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.7);
-    line-height: 3;
-    /* text-indent: 1rem; */
+    line-height: 5;
 }
 
 /* end of section 2 */
@@ -794,11 +792,24 @@ html{
 
 
 /* Responsive */
-/* @media(max-width : 1800px){
+@media(max-width : 1800px){
     .video-wrapper{
         width: 85rem;
         height: 40rem;
         right: 8rem;
+    }
+
+    .section-2{
+        height: 90vh;   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .section-2 .section-2-paragraph{
+        /* margin : 0 0 25rem 5rem; */
+        line-height: 3.5;
     }
 
     .section-4-paragraph{
@@ -856,11 +867,12 @@ html{
         flex-direction: column;
     }
 
-    .section-2 .section-heading{
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translateX(-50%);
+    .section-2{
+        justify-content: space-evenly;
+    }
+
+    .section-2-paragraph{
+        margin-bottom: 5rem;
     }
 
     .video-wrapper{
@@ -912,6 +924,14 @@ html{
         font-size: 6rem;
     }
 
+    .section-2{
+        height: 73vh;
+    }
+
+    .section-2-paragraph{
+        margin-bottom: 10rem;
+    }
+
     .footer{
         padding: 0 5rem;
     }
@@ -934,10 +954,9 @@ html{
         margin-bottom: 2rem;
     }
 
-    .section-2 .section-heading-line{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+    .section-2-paragraph{
+        padding: 5rem;
+        line-height: 3 !important;
     }
 
     .contact-details div{
@@ -957,6 +976,10 @@ html{
 @media(max-width : 500px){
     html{
         font-size: 30%;
+    }
+
+    .section-2{
+        height: 40vh;
     }
 
     .banner-heading{
@@ -1012,5 +1035,5 @@ html{
     .contact-form{
         width: 50rem;
     }
-} */
+}
 /* end of Responsive */
