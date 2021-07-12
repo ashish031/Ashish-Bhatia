@@ -942,7 +942,6 @@ html{
     }
 
     .section--4{
-        height: 30vh;
         background: black;
     }
 
@@ -977,6 +976,23 @@ html{
     .section-2-paragraph{
         padding: 5rem;
         line-height: 3 !important;
+    }
+
+    .section-4{
+        height: 100vh;
+        display: flex;
+        justify-content: stretch;
+    }
+
+    .section-4-paragraph{
+        width: 90%;
+        position: absolute;
+        bottom: 10rem;
+    }
+
+    .video-wrapper{
+        width: 90%;
+        height: 60rem;
     }
 
     .contact-details div{
