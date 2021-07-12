@@ -860,6 +860,10 @@ html{
         font-size: 2rem;
     }
 
+    .section--4{
+        height: 50vh;
+    }
+
     .section-2,
     .section-3,
     .section-4,
@@ -912,6 +916,11 @@ html{
         font-size: 40%;
     }
 
+    .section-1,
+    .section-2{
+        height : 73vh;
+    }
+
     .banner{
         top: 25%;
     }
@@ -924,12 +933,23 @@ html{
         font-size: 6rem;
     }
 
-    .section-2{
-        height: 73vh;
-    }
-
     .section-2-paragraph{
         margin-bottom: 10rem;
+    }
+
+    .section-4{
+        height: 90vh;
+    }
+
+    .section--4{
+        height: 30vh;
+        background: black;
+    }
+
+    .section--4--heading{
+        color: white;
+        font-weight: 300;
+        font-size: 6rem;
     }
 
     .footer{
