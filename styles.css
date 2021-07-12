@@ -792,7 +792,7 @@ html{
 
 
 /* Responsive */
-@media(max-width : 1800px){
+/* @media(max-width : 1800px){
     .video-wrapper{
         width: 85rem;
         height: 40rem;
@@ -808,7 +808,6 @@ html{
     }
 
     .section-2 .section-2-paragraph{
-        /* margin : 0 0 25rem 5rem; */
         line-height: 3.5;
     }
 
@@ -1071,5 +1070,5 @@ html{
     .contact-form{
         width: 50rem;
     }
-}
+} */
 /* end of Responsive */
