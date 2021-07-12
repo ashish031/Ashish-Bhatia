@@ -1015,6 +1015,7 @@ html{
     }
 
     .section-2{
+        width: 60vw;
         height: 60vh;
     }
 
@@ -1056,11 +1057,11 @@ html{
     }
 
     .video-wrapper{
-        width: 100%;
+        width: 70vw;
     }
 
     .section-4-paragraph{
-        width: 100%;
+        width: 70vw;
     }
 
     .contact-details div{
