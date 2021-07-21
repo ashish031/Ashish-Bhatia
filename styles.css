@@ -792,7 +792,10 @@ html{
 
 
 /* Responsive */
-/* @media(max-width : 1800px){
+@media(max-width : 1800px){
+    .scroll-up-btn{
+        display: none;
+    }
     .video-wrapper{
         width: 85rem;
         height: 40rem;
@@ -1070,5 +1073,5 @@ html{
     .contact-form{
         width: 50rem;
     }
-} */
+}
 /* end of Responsive */
