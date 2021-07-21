@@ -985,8 +985,8 @@ html{
     }
 
     .section-4{
-        height: 90vh;
-        display: flex;
+        height: 80vh;
+        /* display: flex; */
         /* justify-content: stretch; */
     }
 
